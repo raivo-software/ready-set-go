@@ -1,0 +1,30 @@
+{
+  "name": "ready-set-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raivo-software/ready-set-go.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raivo-software/ready-set-go/issues"
+  },
+  "homepage": "https://github.com/raivo-software/ready-set-go#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^6.2.2",
+    "eslint-plugin-react": "^7.14.3",
+    "jest": "^24.9.0",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "rimraf": "^3.0.0"
+  }
+}
