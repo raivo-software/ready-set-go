@@ -21,6 +21,13 @@ fieldName = 'id'
 niin funktion tulisi palauttaa taulu:
 [ 'testId1', 'testId2', 'testId3' ]
 
+VINKIT:
+- Tunnistat objektin muista arvoista esim. näin:
+if(obj instanceof Object)
+  //Tee jotain
+
+- Voit käyttää mm. Object.entries ja Object.values -funktioita objektin kenttien läpikäyntiin
+
 */
 function searchFields(obj, fieldName) {
 
